@@ -1,3 +1,3 @@
-This repo is the first of hopefully many Odin Project project's.
+This is the Google Homepage project for the Foundations branch of The Odin Project.
 
-Google Homepage!
+Jazzbeau Mcinnes
