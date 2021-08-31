@@ -77,6 +77,7 @@ button {
 }
 
 .padding {
+    min-height: 3em;
     flex: 1;
     }
 
