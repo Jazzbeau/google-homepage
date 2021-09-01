@@ -13,6 +13,12 @@ button {
     border: inherit;
 }
 
+input,
+input:focus{
+    border: none;
+    outline: none;
+}
+
 /* body * {border: 1px solid green;} */
 
 
@@ -85,6 +91,7 @@ button {
     width: 100%;
     height: 50px;
     display: flex;
+    align-items: center;
 }
 
 .searchbox:hover {
@@ -103,6 +110,28 @@ button {
 
 .search-button {
     margin: 0 5px 0 5px
+}
+
+.search-input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    flex: 1;
+    height:100%;
+    font-size: 1.65em;
+}
+
+.icon-container {
+    max-width: 3em;
+    padding: 0 1.5em 0 1.5em;
+}
+.lens-icon {
+    width: 1.9em;
+}
+
+.mic-icon {
+    width: 2.5em;
+    color: grey;
 }
 
 .button {
